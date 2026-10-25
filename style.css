@@ -1,1 +1,48 @@
 /* Wireframe: lavora con l'inspector aperto, prova lì e poi riporta qui il codice */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 512px;
+    border: 1px dashed gray;
+}
+
+.header {
+    padding: 10px 20px;
+    border: 2px solid black;
+}
+
+.content {
+    padding: 20px 40px;
+}
+
+.card {
+    min-height: 160px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+/* ALLA CLASSE CARD MA SOLO PER GLI H2 
+VOGLIO UN MARGINE INFERIORE DI 4PX 
+*/
+.card h2 {
+    margin-bottom: 4px;
+}
+
+/* PER LA CLASSE FOOTER VOGLIO:
+UN PADDING DI 10PX SUPERIORE/INFERIORE E 20PX LATERALE
+UN BORDO SUPERIORE DI 2PX SOLIDO E NERO 
+*/
+.footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    /*SCORCIATOIA UNICA*/
+    padding: 10px 20px;
+    border-top: 2px solid black;
+}
