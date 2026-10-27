@@ -1,10 +1,20 @@
+<<<<<<< HEAD
 /* Wireframe: lavora con l'inspector aperto, prova lì e poi riporta qui il codice */
+=======
+/* Wireframe: lavora con l'inspector aperto, prova lì e poi riporta qui il codice
+
+
+/*RESETTARE LO STILE */
+/* METTIAMO I MARGINI A 0 E I PADDING A 0  e il box sizing a border box*/
+
+>>>>>>> 2db64b1e7f9184cf731ce80c3d644cfc05ee5a32
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 body {
     width: 512px;
     border: 1px dashed gray;
@@ -15,10 +25,44 @@ body {
     border: 2px solid black;
 }
 
+=======
+/* SIMULIAMO LO SMARTPHONE SETTANDO 
+LA LARGHEZZA DEL BODY A 512px 
+e diamo un bordo generale di 1px di tipo dashed 
+e di colore grigio*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    width: 512px;
+    border: 1px dashed gray;
+    text-align: center;
+}
+
+/*IMPOSTIAMO L'HEADER CON UN PADDING 
+SUPERIORE/INFERIORE DI 10PX E LATERALE 
+(DESTRA/SINISTRA) DI 20PX
+DIAMO UN BORDO DI 2PX SOLID DI COLORE NERO*/
+.header {
+    padding: 10px 20px;
+    border: 2px solid rgba(0, 0, 0, 1.0);
+}
+
+/* IMPOSTIAMO LA CLASSE CONTENT PERCHÉ ABBIA UN
+PADDING DI 20PX SOPRA/SOTTO E 40PX DESTRA/SINISTRA */
+>>>>>>> 2db64b1e7f9184cf731ce80c3d644cfc05ee5a32
 .content {
     padding: 20px 40px;
 }
 
+<<<<<<< HEAD
+=======
+/*IMPOSTIAMO LA CLASSE CARD CON LE SEGUENTI CARATTERISTICHE:
+ALTEZZA MINIMA DI 160PX 
+MARGINE INFERIORE DI 20PX 
+UN PADDING GENERALE DI 20PX 
+UN BORDO DI 2PX SOLID DI COLORE NERO
+*/
+>>>>>>> 2db64b1e7f9184cf731ce80c3d644cfc05ee5a32
 .card {
     min-height: 160px;
     margin-bottom: 20px;
@@ -26,23 +70,44 @@ body {
     border: 2px solid black;
 }
 
+<<<<<<< HEAD
 /* ALLA CLASSE CARD MA SOLO PER GLI H2 
 VOGLIO UN MARGINE INFERIORE DI 4PX 
+=======
+/*
+ALLA CLASSE CARD, MA SOLO PER GLI H2 
+VOGLIO UN MARGINE INFERIORE DI 4PX
+>>>>>>> 2db64b1e7f9184cf731ce80c3d644cfc05ee5a32
 */
 .card h2 {
     margin-bottom: 4px;
 }
 
+<<<<<<< HEAD
 /* PER LA CLASSE FOOTER VOGLIO:
 UN PADDING DI 10PX SUPERIORE/INFERIORE E 20PX LATERALE
 UN BORDO SUPERIORE DI 2PX SOLIDO E NERO 
 */
 .footer {
+=======
+/*
+PER LA CLASSE FOOTER VOGLIO: 
+UN PADDING DI 10PX SUPERIORE/INFERIORE 
+E 20PX LATERALE
+UN BORDO SUPERIORE DI 2PX SOLIDO E NERO
+*/
+.footer {
+    /*SINGOLE VOCI*/
+>>>>>>> 2db64b1e7f9184cf731ce80c3d644cfc05ee5a32
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 20px;
     padding-left: 20px;
     /*SCORCIATOIA UNICA*/
     padding: 10px 20px;
+<<<<<<< HEAD
     border-top: 2px solid black;
+=======
+    border-top: 2px solid rgb(0, 0, 0);
+>>>>>>> 2db64b1e7f9184cf731ce80c3d644cfc05ee5a32
 }
